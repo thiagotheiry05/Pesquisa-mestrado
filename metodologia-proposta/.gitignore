@@ -1,0 +1,30 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Dados sísmicos
+data/raw/*
+!data/raw/.gitkeep
+
+data/unseen/*
+!data/unseen/.gitkeep
+
+# Modelos treinados
+models/*
+!models/.gitkeep
+
+# Resultados gerados
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Arquivos temporários
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
